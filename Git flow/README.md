@@ -57,7 +57,16 @@ Une fois Git Flow installé, vous pouvez utiliser les commandes suivantes pour g
 - **Gestion des branches de hotfix** :
   - `git flow hotfix start <nom>` : Créer une branche de hotfix pour corriger un bug urgent.
   - `git flow hotfix finish <nom>` : Finaliser et fusionner le hotfix dans `main` et `develop`.
+ 
+### 4. Lancer simulation pour s'exercer
 
+#### Clone le projet:
+- Ouvrir Git bash ou un terminal de commande où vous voulez installer le projet
+- Tapez : `git clone https://github.com/l-sauvinet/Formations.git`
+- Le projet a été installer
+- Ouvrir le dossier **Git flow**
+- Ouvrir le fichier **index.html**
+  
 ## Ressources Complémentaires
 
 Pour approfondir vos connaissances sur Git et Git Flow, consultez les ressources suivantes :
