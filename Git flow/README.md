@@ -65,7 +65,7 @@ Une fois Git Flow installé, vous pouvez utiliser les commandes suivantes pour g
 - Tapez : `git clone https://github.com/l-sauvinet/Formations.git`
 - Le projet a été installer
 - Ouvrir le dossier **Git flow**
-- Ouvrir le fichier **index.html**
+- Ouvrir le fichier **exercice.html**
   
 ## Ressources Complémentaires
 
