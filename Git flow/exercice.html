@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulation Interactif Git et Git Flow</title>
+  <link rel="stylesheet" href="Ressources/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simulation Interactive : Git et Git Flow</h1>
+    <div id="terminal">
+      <p>Bienvenue dans le simulateur Git ! Commencez par initialiser un repository.</p>
+    </div>
+
+    <div class="commands">
+      <button onclick="initializeRepo()">git init</button>
+      <button onclick="createBranch()">git branch feature/new-feature</button>
+      <button onclick="checkoutBranch()">git checkout feature/new-feature</button>
+      <button onclick="editFile()">Éditer le fichier</button>
+      <input type="text" id="commit-message" placeholder="Message de commit" />
+      <button onclick="commitChanges()">git commit -m</button>
+      <button onclick="mergeBranch()">git merge feature/new-feature</button>
+    </div>
+
+    <div class="workspace">
+      <div id="file-editor" class="file-editor">
+        <h3>Éditeur de fichier (faux fichier simulé)</h3>
+        <textarea id="file-content" disabled>Contenu initial du fichier</textarea>
+      </div>
+
+      <div id="branch-view" class="branch-view">
+        <h3>Schéma des branches</h3>
+        <canvas id="branchCanvas" width="400" height="200"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <script src="Ressources/script.js"></script>
+</body>
+</html>
